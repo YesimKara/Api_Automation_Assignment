@@ -1,0 +1,153 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "TC_001 and 002 backround",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "use api end point \"https://gorest.co.in/public/v1/users\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "get all users information as De-Serialization",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-11T15:13:43.067Z",
+        "line": 9,
+        "name": "Read all users created and validate",
+        "description": "",
+        "id": "system-should-allow-to-read-all-users--using-api-end-point-\"https://gorest.co.in/public/v1/users\";read-all-users-created-and-validate",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "find out how many users and assert that",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "get all the information of the 7th user",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "verify 7th user",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "TC_001 and 002 backround",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "use api end point \"https://gorest.co.in/public/v1/users\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "get all users information as De-Serialization",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-11T15:13:43.221Z",
+        "line": 14,
+        "name": "User should be able to create a new user in the system.",
+        "description": "",
+        "id": "system-should-allow-to-read-all-users--using-api-end-point-\"https://gorest.co.in/public/v1/users\";user-should-be-able-to-create-a-new-user-in-the-system.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user creates a new user using api endpoint url \"https://gorest.co.in/public/v1/users\" and name \"Yesim\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User validates if the new user is created",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api"
+          }
+        ]
+      }
+    ],
+    "name": "System should allow to read all users  using api end point \"https://gorest.co.in/public/v1/users\"",
+    "description": "",
+    "id": "system-should-allow-to-read-all-users--using-api-end-point-\"https://gorest.co.in/public/v1/users\"",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/api.feature",
+    "tags": [
+      {
+        "name": "@api",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.428">
+    <testcase classname="System should allow to read all users  using api end point &quot;https://gorest.co.in/public/v1/users&quot;" name="Read all users created and validate" time="0.138">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given use api end point "https://gorest.co.in/public/v1/users"..............undefined
+And get all users information as De-Serialization...........................skipped
+Given find out how many users and assert that...............................skipped
+And get all the information of the 7th user.................................skipped
+Then verify 7th user........................................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="System should allow to read all users  using api end point &quot;https://gorest.co.in/public/v1/users&quot;" name="User should be able to create a new user in the system." time="0.015">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given use api end point "https://gorest.co.in/public/v1/users"..............undefined
+And get all users information as De-Serialization...........................skipped
+Given user creates a new user using api endpoint url "https://gorest.co.in/public/v1/users" and name "Yesim".skipped
+Then User validates if the new user is created..............................skipped
+]]>
+        </failure>
+    </testcase>
+</testsuite>
